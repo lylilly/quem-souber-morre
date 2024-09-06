@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAMBURGUERIA DO BAIRRO</title>
+
+    <link rel='shortcut icon' href='imagens/favicon.png'>
+
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/estilositens.css">
+    <link rel="stylesheet" href="estilos/estiloscarrinho.css">
+
+    <script src="js/script-tela-carrinho.js" type="module" defer></script>
+</head>
+
+<body>
+    <div id="geral">
+        <section id="cabecalho">
+            <div id="logo">
+                <a href="index.html">
+                    <p>HAMBURGUERIA</p> <span>DO BAIRRO</span>
+                </a>
+            </div>
+
+            <nav id="menu">
+                <a href="index.html"> HOME </a>
+                <a href="cardapio.html"> CARDÁPIO </a>
+                <a href="cadastro.html"> CADASTRO </a>
+                <a href="contato.html"> CONTATO </a>
+                <a href="sobre.html"> SOBRE </a>
+                <a href="carrinho.html">
+                    <img src="imagens/carrinho.png" alt="">
+                </a>
+            </nav>
+        </section>
+        <section id="conteudo">
+            <div id="itens">
+                <div id="cards-carrinho">
+                    <div class="card-carrinho">
+
+                        <div class="imgCard">
+                            <img src="imagens/teste.jpg" alt="">
+                        </div>
+
+                        <div class="dados">
+                            <div class="descricao">
+                                HAMBÚRGUER ARTESANAL
+                            </div>
+                            <div class="detalhe">
+                                Carne, queijo cheddar, tomate, cebola, alface
+                            </div>
+                            <div class="numeros">
+                                <div class="valor">
+                                    R$ 25,00
+                                </div>
+                                <div class="div-input">
+                                    <input type="number" name="quantidade" class="quantidade" min="1" value="1">
+                                </div>
+                                <div class="valor">
+                                    R$ 25,00
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="btnAdd">
+                            <img src="imagens/remover.png" title="Remover item">
+                        </div>
+
+                    </div>
+
+                    <div class="card-carrinho">
+                        <div>
+                            <div class="imgCard">
+                                <img src="imagens/teste.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="dados">
+                            <div class="descricao">
+                                HAMBÚRGUER ARTESANAL
+                            </div>
+                            <div class="detalhe">
+                                Carne, queijo cheddar, tomate, cebola, alface
+                            </div>
+                            <div class="numeros">
+                                <div class="valor">
+                                    R$ 25,00
+                                </div>
+                                <div class="div-input">
+                                    <input type="number" name="quantidade" class="quantidade" min="1" value="1">
+                                </div>
+                                <div class="valor">
+                                    R$ 25,00
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="btnAdd">
+                                <img src="imagens/remover.png" title="Remover item">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div id="totais-carrinho">
+                    <p class="campos-totais">Total</p>
+                    <p class="valor" id="valorTotal">R$ 0,00</p>
+                    <p class="campos-totais">Taxa de Entrega</p>
+                    <p class="valor">R$ 5,00</p>
+                    <p class="campos-totais">Valor a Pagar</p>
+                    <p class="valor" id="valorTotalPagar">R$ 0,00</p>
+
+                    <button class="btn-">Finalizar Pedido</button>
+                </div>
+
+            </div>
+
+
+        </section>
+        <footer id="rodape">
+            <p>&copy; 2024 Todos os Direitos reservados para HAMBURGUERIA DO BAIRRO</p>
+            <p> CNPJ.: 00.008.111/1XXXX-00 - Rua Sei la das Quantas, s/n, ARACAJU, SE, 49066-321 tel.: 079910111214
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>

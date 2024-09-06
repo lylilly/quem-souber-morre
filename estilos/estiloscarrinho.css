@@ -1,0 +1,102 @@
+#cards-carrinho {
+    width: 60%;
+    min-height: 600px;
+    margin: 0px 10px;
+}
+
+.card-carrinho {
+    width: 100%;
+    background-color: #ffffff;
+    margin: 20px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.card-carrinho .dados {
+    width: 100%; 
+}
+
+.card-carrinho .imgCard, .btnAdd{
+    width: 25%;
+}
+
+.card-carrinho .imgCard img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+
+}
+
+.card-carrinho .btnAdd img {
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.numeros .valor {
+    width: 30%;
+}
+
+.numeros {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.numeros .div-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.numeros .div-input input {
+    width: 60px;
+    text-align: center;
+    margin: 0px;
+    padding: 3px;
+}
+
+#totais-carrinho {
+    width: 30%;
+    height: 400px;
+    background-color: #ffffff;
+    color: #273900;
+    border-radius: 8px;
+    margin: 20px 5px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+#totais-carrinho p {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 0px;
+}
+
+#totais-carrinho button {
+    width: 100%;
+    height: 40px;
+    margin: 35px 0px;
+    font-size: 0.9em;
+    font-weight: bold;
+    background-color: #273900;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 2s;
+}
+
+
+#totais-carrinho button:hover {
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}

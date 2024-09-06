@@ -1,0 +1,77 @@
+/*FORMATANDO CORPO DO CARDÁPIO*/
+#itens{
+    width: 90%;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: self-start;
+    padding: 35px;
+}
+
+/*FORMATANDO OS CARDS*/
+.card{
+    background-color: #ffffff;
+    color: #273900;
+    width: 180px;
+    min-height: 320px;
+    margin: 8px;
+    border-radius: 8px;
+}
+
+.imgCard, .descricao, .detalhe, .valor, .btnAdd{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #273900;
+}
+
+.imgCard img{
+    width: 120px;
+    height: 90px;
+}
+
+.descricao{
+    font-size: 0.9em;
+    margin: 5px 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.detalhe{
+    height: 40px;
+    font-size: 0.8em;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.valor{
+    margin: 5px 0px;
+    height: 30px;
+    justify-content: end;
+    color: #ff0000;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.btnAdd button{
+    width: 80%;
+    height: 35px;
+    font-size: 0.9em;
+    font-weight: bold;
+    background-color: #273900;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.btnAdd button:hover{
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
